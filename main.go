@@ -5,8 +5,7 @@ import (
 )
 
 func main() {
-	a := []byte("str")
-	fmt.Println(utf8.(a))
+
 }
 
 var names = make(map[string]string)
