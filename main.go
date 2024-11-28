@@ -2,15 +2,10 @@ package main
 
 import (
 	"fmt"
+	"module3_1-lesson/internal/workingWithFiles"
 )
 
 func main() {
-
-}
-
-var names = make(map[string]string)
-
-func PrintHello(name string) string {
-	names[name] = name
-	return fmt.Sprintf("Hello, %s!", name)
+	result := workingWithFiles.LineByNum("/Users/dmitriyrazgulyaev/GolandProjects/lesson_testing/test", -1)
+	fmt.Println(result)
 }
